@@ -324,7 +324,7 @@ module.exports = function (grunt) {
 			options: {
 				limit: 4
 			}
-        }
+        },
 		
 		// Deploy to Github Pages
 	    buildcontrol: {
