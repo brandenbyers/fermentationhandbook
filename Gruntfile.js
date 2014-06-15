@@ -389,6 +389,11 @@ module.exports = function (grunt) {
         'usemin',
         'htmlmin'
     ]);
+	
+    grunt.registerTask('deploy', [
+      'default',
+      'buildcontrol'
+    ]);
 
     grunt.registerTask('default', [
         'newer:jshint',
