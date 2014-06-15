@@ -325,6 +325,20 @@ module.exports = function (grunt) {
 				limit: 4
 			}
         }
+		
+		// Deploy to Github Pages
+	    buildcontrol: {
+	      dist: {
+	        options: {
+	          dir: 'dist',
+	          commit: true,
+	          push: true,
+	          message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%',
+	          remote: 'git@github.com:brndnb/fermentationhandbook.git',
+	          branch: 'gh-pages'
+	        }
+	      }
+	    },
     });
 
 
