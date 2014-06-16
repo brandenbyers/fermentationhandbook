@@ -65,7 +65,7 @@ a, button, .owl-buttons div {
 |
 */
 .top-wrap {
-	background: #211810 url("/img/bg/1.jpg") no-repeat center top;
+	background: #211810 url("https://raw.githubusercontent.com/brndnb/fermentationhandbook/gh-pages/img/bg/1.jpg") no-repeat center top;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -295,7 +295,7 @@ header {
 */
 .services {
 	padding: 70px 90px 30px;
-	background: url("/img/service-bg.png") no-repeat center 90px;
+	background: url("https://raw.githubusercontent.com/brndnb/fermentationhandbook/gh-pages/img/service-bg.png") no-repeat center 90px;
 }
 
 .services3,.services4 {
