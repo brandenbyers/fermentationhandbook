@@ -16,7 +16,7 @@ html {
 body {
 	
 	font-family: Open sans;
-	background: url("/img/pat-bg.png"); 
+	background: url("../img/pat-bg.png"); 
 }
 
 .body {
@@ -65,7 +65,7 @@ a, button, .owl-buttons div {
 |
 */
 .top-wrap {
-	background: #211810 url("/img/bg/1.jpg") no-repeat center top;
+	background: #211810 url("../img/bg/1.jpg") no-repeat center top;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -75,7 +75,7 @@ a, button, .owl-buttons div {
 
 .overlay-bg {
 	position: absolute;
-	background: url("/img/overlay.png");
+	background: url("../img/overlay.png");
 	width: 100%;
 	height: 100% !important;
 	left: 0;
@@ -295,7 +295,7 @@ header {
 */
 .services {
 	padding: 70px 90px 30px;
-	background: url("/img/service-bg.png") no-repeat center 90px;
+	background: url("../img/service-bg.png") no-repeat center 90px;
 }
 
 .services3,.services4 {
@@ -323,7 +323,7 @@ header {
 	width: 35px;
 	height: 25px;
 	padding-top:5px;
-	background: #fff url("/img/pat-bg.png");
+	background: #fff url("../img/pat-bg.png");
 	display: table;
 	text-align: center;
 	line-height: 25px;
@@ -1006,7 +1006,7 @@ footer .container {
 	left: 0;
 	right: 0;
 	top: -13px;
-	background: url("/img/popup-arrow.png");
+	background: url("../img/popup-arrow.png");
 }
 
 .service-content:hover {
@@ -1184,7 +1184,7 @@ footer .container {
 
 .quote-info:after {
 	content: '';
-	background:url("/img/quote-arrow2.png");
+	background:url("../img/quote-arrow2.png");
 	display: table;
 	position: absolute;
 	width: 15px;
@@ -1203,7 +1203,7 @@ footer .container {
 
 .quote2-content:hover .quote-info:after {
 	content: '';
-	background: url("/img/quote-arrow2-hr.png");
+	background: url("../img/quote-arrow2-hr.png");
 }
 
 .quote2-content:hover .quote-info h5,.quote2-content:hover .quote-info,.quote2-content:hover .quote-info p {
@@ -2585,7 +2585,7 @@ footer .container {
 .next-project {
 	width: 50px;
 	position: absolute;
-	background: url("/img/arrow-right.png");
+	background: url("../img/arrow-right.png");
 	height: 50px;
 	top: 45%;
 	right: 15px;
@@ -2594,18 +2594,18 @@ footer .container {
 .prev-project {
 	width: 50px;
 	position: absolute;
-	background: url("/img/arrow-left.png");
+	background: url("../img/arrow-left.png");
 	height: 50px;
 	top: 45%;
 	left: 15px;
 }
 
 .prev-project:hover {
-	background: url("/img/arrow-left-hr.png");
+	background: url("../img/arrow-left-hr.png");
 }
 
 .next-project:hover {
-	background: url("/img/arrow-right-hr.png");
+	background: url("../img/arrow-right-hr.png");
 }
 
 .small-img-inner {
@@ -2719,7 +2719,7 @@ footer .container {
 }
 
 .success-ico {
-	background:url("/img/success.png");
+	background:url("../img/success.png");
 	width:30px;
 	height:30px;
 	float:left;
@@ -2729,7 +2729,7 @@ footer .container {
 }
 
 .error-ico {
-	background:url("/img/error.png");
+	background:url("../img/error.png");
 	width:30px;
 	height:30px;
 	float:left;
