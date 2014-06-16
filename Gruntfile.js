@@ -307,6 +307,15 @@ module.exports = function (grunt) {
                 src: '{,*/}*.css'
             }
         },
+		
+		// Remove unused css
+		uncss: {
+		  dist: {
+		    files: {
+		      'dist/css/main.css': ['app/index.html']
+		    }
+		  }
+		},
 
         // Run some tasks in parallel to speed up build process
         concurrent: {
@@ -341,6 +350,7 @@ module.exports = function (grunt) {
 	    },
     });
 
+	grunt.loadNpmTasks('grunt-uncss');
 
     grunt.registerTask('serve', function (target) {
         if (target === 'dist') {
@@ -387,7 +397,8 @@ module.exports = function (grunt) {
         'copy:dist',
         'rev',
         'usemin',
-        'htmlmin'
+        'htmlmin',
+		'uncss'
     ]);
 	
     grunt.registerTask('deploy', [
