@@ -282,14 +282,15 @@ module.exports = function (grunt) {
                     src: [
                         '*.{ico,png,txt}',
                         '.htaccess',
+                        'CNAME',
                         'img/{,*/}*.webp',
                         '{,*/}*.html',
                         'styles/fonts/{,*/}*.*',
-						'fonts/icomoon/icomoon-.eot',
-						'fonts/icomoon/icomoon.eot',
-						'fonts/icomoon/icomoon.svg',
-						'fonts/icomoon/icomoon.ttf',
-						'fonts/icomoon/icomoon.woff'
+                        'fonts/icomoon/icomoon-.eot',
+                        'fonts/icomoon/icomoon.eot',
+                        'fonts/icomoon/icomoon.svg',
+                        'fonts/icomoon/icomoon.ttf',
+                        'fonts/icomoon/icomoon.woff'
                     ]
                 }, {
                     expand: true,
