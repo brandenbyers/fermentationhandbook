@@ -1009,10 +1009,6 @@ footer .container {
 	background: url("https://raw.githubusercontent.com/brndnb/fermentationhandbook/gh-pages/img/popup-arrow.png");
 }
 
-.service-content:hover {
-	cursor: pointer;
-}
-
 .service-content:hover .services-popup{
 	visibility: visible;
 	opacity: 1;
