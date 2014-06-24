@@ -402,6 +402,18 @@ header {
 }
 
 /*
+| Retailers
+*/
+
+.retailers {
+	padding: 10px 60px 10px;
+}
+
+.ret-logo {
+	padding: 30px 30px 30px;
+}
+
+/*
 |--------------------------------------------------------------------------
 |  7.0 Main Content
 |  
@@ -2794,7 +2806,7 @@ footer .container {
 @media only screen and (min-width: 960px) and (max-width: 1050px) {
 
 .services {
-	padding: 70px 0 30px;
+	padding: 70px 30px 30px;
 	background-size: 58%;
 }
 
@@ -2832,7 +2844,7 @@ footer .container {
 }
 
 .services {
-	padding: 70px 0 30px;
+	padding: 70px 30px 30px;
 	background-size: 58%;
 }
 

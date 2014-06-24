@@ -290,7 +290,12 @@ module.exports = function (grunt) {
                         'fonts/icomoon/icomoon.eot',
                         'fonts/icomoon/icomoon.svg',
                         'fonts/icomoon/icomoon.ttf',
-                        'fonts/icomoon/icomoon.woff'
+                        'fonts/icomoon/icomoon.woff',
+                        'fonts/font-awesome/fontawesome-webfont-.eot',
+                        'fonts/font-awesome/fontawesome-webfont-v=4.0.3.eot',
+                        'fonts/font-awesome/fontawesome-webfont-v=4.0.3.svg',
+                        'fonts/font-awesome/fontawesome-webfont-v=4.0.3.ttf',
+                        'fonts/font-awesome/fontawesome-webfont-v=4.0.3.woff'
                     ]
                 }, {
                     expand: true,
