@@ -333,6 +333,7 @@ ul {
 .col-md-2,
 .col-md-3,
 .col-sm-4,
+.col-md-4,
 .col-md-6,
 .col-md-12 {
   position: relative;
@@ -354,6 +355,7 @@ ul {
 @media (min-width: 768px) {
   .col-md-2,
   .col-md-3,
+  .col-md-4,
   .col-md-6,
   .col-md-12 {
     float: left;
@@ -365,6 +367,10 @@ ul {
 
   .col-md-6 {
     width: 50%;
+  }
+
+  .col-md-4 {
+    width: 33.33333333333333%;
   }
 
   .col-md-3 {
@@ -774,6 +780,18 @@ header {
 }
 
 /*
+| Retailers
+*/
+
+.retailers {
+  padding: 10px 60px 10px;
+}
+
+.ret-logo {
+  padding: 30px 30px 30px;
+}
+
+/*
 |--------------------------------------------------------------------------
 |  7.0 Main Content
 |  
@@ -1077,7 +1095,7 @@ footer .container {
 
 @media only screen and (min-width: 960px) and (max-width: 1050px) {
   .services {
-    padding: 70px 0 30px;
+    padding: 70px 30px 30px;
     background-size: 58%;
   }
 
@@ -1105,7 +1123,7 @@ footer .container {
   }
 
   .services {
-    padding: 70px 0 30px;
+    padding: 70px 30px 30px;
     background-size: 58%;
   }
 
